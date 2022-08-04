@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="UserUpdateDataTest" time="26.704" tests="9" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="sun.desktop" value="windows"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.specification.version" value="11"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1251"/>
+    <property name="java.class.path" value="C:\Java-projects\Diplom\Diplom-2\target\test-classes;C:\Java-projects\Diplom\Diplom-2\target\classes;C:\Users\Наталья\.m2\repository\io\qameta\allure\allure-junit4\2.18.1\allure-junit4-2.18.1.jar;C:\Users\Наталья\.m2\repository\io\qameta\allure\allure-java-commons\2.18.1\allure-java-commons-2.18.1.jar;C:\Users\Наталья\.m2\repository\org\slf4j\slf4j-api\1.7.30\slf4j-api-1.7.30.jar;C:\Users\Наталья\.m2\repository\io\qameta\allure\allure-model\2.18.1\allure-model-2.18.1.jar;C:\Users\Наталья\.m2\repository\io\qameta\allure\allure-rest-assured\2.18.1\allure-rest-assured-2.18.1.jar;C:\Users\Наталья\.m2\repository\io\qameta\allure\allure-attachments\2.18.1\allure-attachments-2.18.1.jar;C:\Users\Наталья\.m2\repository\org\freemarker\freemarker\2.3.31\freemarker-2.3.31.jar;C:\Users\Наталья\.m2\repository\io\rest-assured\rest-assured\5.1.1\rest-assured-5.1.1.jar;C:\Users\Наталья\.m2\repository\org\apache\groovy\groovy\4.0.1\groovy-4.0.1.jar;C:\Users\Наталья\.m2\repository\org\apache\groovy\groovy-xml\4.0.1\groovy-xml-4.0.1.jar;C:\Users\Наталья\.m2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar;C:\Users\Наталья\.m2\repository\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar;C:\Users\Наталья\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\Наталья\.m2\repository\commons-codec\commons-codec\1.11\commons-codec-1.11.jar;C:\Users\Наталья\.m2\repository\org\apache\httpcomponents\httpmime\4.5.13\httpmime-4.5.13.jar;C:\Users\Наталья\.m2\repository\org\hamcrest\hamcrest\2.1\hamcrest-2.1.jar;C:\Users\Наталья\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\Users\Наталья\.m2\repository\io\rest-assured\json-path\5.1.1\json-path-5.1.1.jar;C:\Users\Наталья\.m2\repository\org\apache\groovy\groovy-json\4.0.1\groovy-json-4.0.1.jar;C:\Users\Наталья\.m2\repository\io\rest-assured\rest-assured-common\5.1.1\rest-assured-common-5.1.1.jar;C:\Users\Наталья\.m2\repository\io\rest-assured\xml-path\5.1.1\xml-path-5.1.1.jar;C:\Users\Наталья\.m2\repository\org\apache\commons\commons-lang3\3.11\commons-lang3-3.11.jar;C:\Users\Наталья\.m2\repository\junit\junit\4.13.2\junit-4.13.2.jar;C:\Users\Наталья\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\Наталья\.m2\repository\com\google\code\gson\gson\2.9.0\gson-2.9.0.jar;"/>
+    <property name="java.vm.vendor" value="Amazon.com Inc."/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://aws.amazon.com/corretto/"/>
+    <property name="user.timezone" value="Europe/Moscow"/>
+    <property name="java.vm.specification.version" value="11"/>
+    <property name="os.name" value="Windows 11"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="RU"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Amazon Corretto\jdk11.0.14_10\bin"/>
+    <property name="sun.java.command" value="C:\Users\98AF~1\AppData\Local\Temp\surefire1089901666278009053\surefirebooter9105515624125633486.jar C:\Users\Наталья\AppData\Local\Temp\surefire1089901666278009053 2022-07-31T14-52-28_149-jvmRun1 surefire1537949665424692067tmp surefire_014126108437477542259tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="C:\Java-projects\Diplom\Diplom-2\target\test-classes;C:\Java-projects\Diplom\Diplom-2\target\classes;C:\Users\Наталья\.m2\repository\io\qameta\allure\allure-junit4\2.18.1\allure-junit4-2.18.1.jar;C:\Users\Наталья\.m2\repository\io\qameta\allure\allure-java-commons\2.18.1\allure-java-commons-2.18.1.jar;C:\Users\Наталья\.m2\repository\org\slf4j\slf4j-api\1.7.30\slf4j-api-1.7.30.jar;C:\Users\Наталья\.m2\repository\io\qameta\allure\allure-model\2.18.1\allure-model-2.18.1.jar;C:\Users\Наталья\.m2\repository\io\qameta\allure\allure-rest-assured\2.18.1\allure-rest-assured-2.18.1.jar;C:\Users\Наталья\.m2\repository\io\qameta\allure\allure-attachments\2.18.1\allure-attachments-2.18.1.jar;C:\Users\Наталья\.m2\repository\org\freemarker\freemarker\2.3.31\freemarker-2.3.31.jar;C:\Users\Наталья\.m2\repository\io\rest-assured\rest-assured\5.1.1\rest-assured-5.1.1.jar;C:\Users\Наталья\.m2\repository\org\apache\groovy\groovy\4.0.1\groovy-4.0.1.jar;C:\Users\Наталья\.m2\repository\org\apache\groovy\groovy-xml\4.0.1\groovy-xml-4.0.1.jar;C:\Users\Наталья\.m2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar;C:\Users\Наталья\.m2\repository\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar;C:\Users\Наталья\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\Наталья\.m2\repository\commons-codec\commons-codec\1.11\commons-codec-1.11.jar;C:\Users\Наталья\.m2\repository\org\apache\httpcomponents\httpmime\4.5.13\httpmime-4.5.13.jar;C:\Users\Наталья\.m2\repository\org\hamcrest\hamcrest\2.1\hamcrest-2.1.jar;C:\Users\Наталья\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\Users\Наталья\.m2\repository\io\rest-assured\json-path\5.1.1\json-path-5.1.1.jar;C:\Users\Наталья\.m2\repository\org\apache\groovy\groovy-json\4.0.1\groovy-json-4.0.1.jar;C:\Users\Наталья\.m2\repository\io\rest-assured\rest-assured-common\5.1.1\rest-assured-common-5.1.1.jar;C:\Users\Наталья\.m2\repository\io\rest-assured\xml-path\5.1.1\xml-path-5.1.1.jar;C:\Users\Наталья\.m2\repository\org\apache\commons\commons-lang3\3.11\commons-lang3-3.11.jar;C:\Users\Наталья\.m2\repository\junit\junit\4.13.2\junit-4.13.2.jar;C:\Users\Наталья\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\Наталья\.m2\repository\com\google\code\gson\gson\2.9.0\gson-2.9.0.jar;"/>
+    <property name="allure.results.directory" value="C:\Java-projects\Diplom\Diplom-2\target/allure-results"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\Наталья"/>
+    <property name="user.language" value="ru"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2022-02-08"/>
+    <property name="java.home" value="C:\Program Files\Amazon Corretto\jdk11.0.14_10"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="C:\Java-projects\Diplom\Diplom-2"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="surefire.real.class.path" value="C:\Users\98AF~1\AppData\Local\Temp\surefire1089901666278009053\surefirebooter9105515624125633486.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="11.0.14.1+10-LTS"/>
+    <property name="user.name" value="Наталья"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="Cp1251"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="java.vendor.version" value="Corretto-11.0.14.10.1"/>
+    <property name="localRepository" value="C:\Users\Наталья\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://github.com/corretto/corretto-11/issues/"/>
+    <property name="java.io.tmpdir" value="C:\Users\98AF~1\AppData\Local\Temp\"/>
+    <property name="java.version" value="11.0.14.1"/>
+    <property name="user.dir" value="C:\Java-projects\Diplom\Diplom-2"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.library.path" value="C:\Program Files\Amazon Corretto\jdk11.0.14_10\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Amazon Corretto\jdk11.0.14_10\bin;C:\Program Files (x86)\Common Files\Intel\Shared Libraries\redist\intel64\compiler;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\nodejs\;C:\Program Files\Git\cmd;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\allure-2.18.1\bin;;C:\Program Files\Docker\Docker\resources\bin;C:\ProgramData\DockerDesktop\version-bin;C:\Users\Наталья\AppData\Local\Microsoft\WindowsApps;C:\Users\Наталья\AppData\Roaming\npm;C:\Program Files\Amazon Corretto\jdk11.0.14_10\bin;C:\apache-maven-3.8.5\bin;C:\WebDriver\bin;;."/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vendor" value="Amazon.com Inc."/>
+    <property name="java.vm.version" value="11.0.14.1+10-LTS"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="55.0"/>
+  </properties>
+  <testcase name="shouldBeImpossibleToChangeUnauthorizedUserData" classname="UserUpdateDataTest" time="3.662"/>
+  <testcase name="shouldBeImpossibleToChangeUnauthorizedUserName" classname="UserUpdateDataTest" time="2.613"/>
+  <testcase name="shouldBePossibleToChangeAuthorizedUserData" classname="UserUpdateDataTest" time="2.912"/>
+  <testcase name="shouldBePossibleToChangeAuthorizedUserName" classname="UserUpdateDataTest" time="2.762"/>
+  <testcase name="shouldBeImpossibleToChangeEmailOnAlreadyExisting" classname="UserUpdateDataTest" time="3.225"/>
+  <testcase name="shouldBeImpossibleToChangeUnauthorizedUserPassword" classname="UserUpdateDataTest" time="2.913"/>
+  <testcase name="shouldBePossibleToChangeAuthorizedUserEmail" classname="UserUpdateDataTest" time="2.609"/>
+  <testcase name="shouldBeImpossibleToChangeUnauthorizedUserEmail" classname="UserUpdateDataTest" time="3.372"/>
+  <testcase name="shouldBePossibleToChangeAuthorizedUserPassword" classname="UserUpdateDataTest" time="2.613"/>
+</testsuite>
